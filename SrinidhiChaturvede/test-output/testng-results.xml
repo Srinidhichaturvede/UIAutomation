@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="70408" started-at="2019-12-15T19:50:49Z" finished-at="2019-12-15T19:51:59Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:module.test.framework.Runner@5ec0a365]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="70408" started-at="2019-12-15T19:50:49Z" finished-at="2019-12-15T19:51:59Z">
+      <class name="module.test.framework.Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:module.test.framework.Runner@5ec0a365]" name="setUpClass" is-config="true" duration-ms="587" started-at="2019-12-15T20:50:49Z" finished-at="2019-12-15T20:50:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:module.test.framework.Runner@5ec0a365]" name="feature" duration-ms="37293" started-at="2019-12-15T20:50:50Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-12-15T20:51:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Business use case: End to end flow Pillow Purchase using valid Credit Card.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:module.test.framework.Runner@5ec0a365]" name="feature" duration-ms="30580" started-at="2019-12-15T20:51:27Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-12-15T20:51:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Business use case: End to end checkout flow Pillow Purchase using Invalid Credit Card]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:module.test.framework.Runner@5ec0a365]" name="feature" duration-ms="1381" started-at="2019-12-15T20:51:58Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-12-15T20:51:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Business use case: Compare API response present from two files and find the difference.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:module.test.framework.Runner@5ec0a365]" name="tearDownClass" is-config="true" duration-ms="396" started-at="2019-12-15T20:51:59Z" finished-at="2019-12-15T20:51:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- module.test.framework.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

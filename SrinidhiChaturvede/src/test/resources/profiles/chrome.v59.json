@@ -1,0 +1,19 @@
+{
+    "name": "chrome.default.profile",
+    "driver": {
+        "version": "2.35",
+        "osx": "chromedriver",
+        "linux": "chromedriver",
+        "windows": "chromedriver.exe",
+        "chromeOptions": {
+            "args": [
+                "--disable-extensions",
+                "--disable-popup-blocking",
+                "--ignore-certificate-errors",
+                "--start-maximized"
+            ]
+        }
+    },
+    "capabilities": {},
+    "parentProfile": ""
+}
